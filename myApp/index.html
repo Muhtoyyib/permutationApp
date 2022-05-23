@@ -5,9 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-center text-white">Do you have any <Strong>Permutation</Strong> or <strong>Combination</strong> Question</h1><br>
+                <p class="text-center text-white"> Solve you question below:</p>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-8">
+                <h2>Permutation</h2><br>
+                <label for="n">If n =</label>
+                <input type="text" id="n" placeholder="input n"><br>
+                <label for="r">and r =</label>
+                <input type="text" id="r" placeholder="input r"> 
+                
+                <button type="button" onclick="permutation()">Permute</button>
+            </div>
+
+             
+            <div class="col-4">
+            <p>The ans is: <b id="ans" class="text-success"></b></p>
+            </div>
+
+        </div>
+        
+       
+    </div>
    
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
