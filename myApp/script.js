@@ -1,9 +1,3 @@
-
-function le(){
-  let n =  document.getElementById('n').value;
- console.log(n);
-}
-
 function permutation(n,r){
 
  n = document.getElementById('n').value;
@@ -17,7 +11,30 @@ function permutation(n,r){
   return product;
  }
 let ans = factorial(n)/factorial(n-r);
-//console.log(factorial(n)/factorial(n-r)) ;
 document.getElementById('ans').innerHTML = ans
 
 }
+
+  
+function combination(n,r){
+  
+   n = document.getElementById('nC').value;
+   r = document.getElementById('rC').value;
+  
+   function factorial(num){
+     let product = 1;
+   for(let i=2; i <= num; i++){
+     product *= i;
+   }
+    return product;
+   }
+
+   let finalN = factorial(n);
+   let finalR = factorial(n-r)*factorial(r);
+  let ans = finalN/finalR;
+  document.getElementById('ansC').innerHTML = ans
+ 
+  
+  }
+
+  
