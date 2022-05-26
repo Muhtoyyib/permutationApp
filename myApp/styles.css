@@ -8,3 +8,19 @@ hr{
     border: none;
     opacity: 0.9;
 }
+a{
+    text-decoration: none;
+}
+a:hover {
+    color: wheat;
+    text-decoration: none;
+}
+#backbtn { 
+    border-radius: 100px;
+    color: #000;
+    font-weight: 630;
+}
+#backbtn:hover{
+    color: wheat;
+    text-decoration: none;
+}
