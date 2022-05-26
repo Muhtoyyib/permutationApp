@@ -1,4 +1,10 @@
 body{
     background-color: black;
 }
-
+hr{
+    width: 80%;
+    height: 1px;
+    background-color: white;
+    border: none;
+    opacity: 0.9;
+}
