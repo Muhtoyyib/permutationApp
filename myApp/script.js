@@ -37,4 +37,26 @@ function combination(n,r){
   
   }
 
+  function displayPermutation(){
+    let element = document.getElementById('permSol');
+    element.classList.remove('d-none');
+  }
+
+  function displayCombination(){
+    let element = document.getElementById('combSol');
+    element.classList.remove('d-none');
+  }
+
+
+  function hidePermutation(){
+    let element = document.getElementById('permSol');
+    element.classList.add('d-none');
+  }
+
+
+  function hideCombination(){
+    let element = document.getElementById('combSol');
+    element.classList.add('d-none');
+  }
+
   
