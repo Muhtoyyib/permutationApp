@@ -44,3 +44,7 @@ a:hover {
     height: 90%;
     margin-top: 5%;
 }
+
+input{
+    border-radius: 10px;
+}
